@@ -1,2 +1,11 @@
 # go-qrcode
-Render a QRCode PNG
+生成二维码，可以自定义颜色、尺寸、Logo等
+---
+###参数说明如下:
+|参数|默认值|描述|
+|---|---|---|
+|url||生成二维码内容|
+|size|300|二维码尺寸(单位:px)|
+|fcolor|000000|前景色Hex值(默认：黑色)|
+|bcolor|FFFFFF|背景色Hex值(默认：白色)|
+|logo||二维码中心logo(图片URL地址)|
